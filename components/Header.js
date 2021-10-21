@@ -26,10 +26,47 @@ export default function Header(){
                 </button>
             </div>
             <style jsx>{`
-              /* ADD YOUR STYLES HERE */
-              header {
-                  color: #1d3557;
-                  background-color: white;
+                header {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                nav {
+                    display: flex;
+                    flex-direciton: row;
+                    align-items: center;
+                }
+                .logo {
+                    display: flex;
+                    flex-direction: row;
+                    margin: 0.5em;
+                }
+                .lightbulb {
+                    width: 2.5em;
+                    margin-left: 2em;
+                }
+                a {
+                    font-size: x-small;
+                    font-weight: bold;
+                    margin: 1em;
+                }
+                .button-group {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    margin: 0.5em;
+                }
+                .search-button {
+                    width: 1em;
+                }
+                .sign-up {
+                    font-size: xx-small;
+                    font-weight: bold;
+                    background-color: white;
+                    padding: 1.2em;
+                    border-radius: 5px;
+                    margin: 0.25em;
                 }
             `}</style>
         </header>
