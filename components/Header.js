@@ -58,7 +58,9 @@ export default function Header(){
                     margin: 0.5em;
                 }
                 .search-button {
-                    width: 1em;
+                    width: 2.25em;
+                    background: none;
+                    border: none;
                 }
                 .sign-up {
                     font-size: xx-small;
@@ -67,6 +69,7 @@ export default function Header(){
                     padding: 1.2em;
                     border-radius: 5px;
                     margin: 0.25em;
+                    margin-right: 3em;
                 }
             `}</style>
         </header>
